@@ -1,0 +1,21 @@
+.missile-link {
+    display: block;
+    margin: 40px;
+    /*margin control is set for spacing between message*/
+
+}
+
+#real-alert{
+    border-width: thick;
+    border-color: crimson;
+    color: crimson;
+    font-size: 35pt;
+    border-style: dotted;
+}
+
+#test-only{
+    border-width: thick;
+    border-color: aqua;
+    color: midnightblue;
+    border-style: solid;
+}

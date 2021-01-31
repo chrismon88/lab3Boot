@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="feedback-styles.css"type="text/css">
+
+</head>
+<body class="m-3"> <!--class merging around page-->>
+
+<div class="jumbotron"> <!--div for jumbroton-->
+    <h1>Please give us feedback. You may do so anonymously.</h1>
+</div>
+
+<div class="row"> <!-- Start of the row-->
+    <div class="col-md-5"> <!---Start of first column--->
+        <div class="ml-5">
+            <p> As a valued student, your opinion,thoughts, and feedback is important to our organization.</p>
+            <p> Please use this form to send us your feedback.</p>
+            <p> If you would like a response, please ensure to include your contact information.</p>
+        </div>
+    </div> <!--end of first column-->
+
+    <div class="col-md-7"> <!---start of first column--->
+        <form class="ml-5 mr-5">
+
+            <label for="name">Name</label> <input id="name" class="form-control" type="text"><br>
+            <label for="email">email</label> <input id="email" class="form-control" type="email"><br>
+            <label for="comments">Comments</label> <br>
+            <textarea id="comments" class="form-control" required></textarea><br>
+
+            <p class="form-text">Are you a current student?</p>
+            <div class="form-check">
+                <input name="current-student" id="yes" class="form-check-input" type="radio" checked>
+                <label for="yes" class="form-check-label">Yes</label>
+            </div>
+            <div class="form-check">
+                <input name="current-student" id="no" class="form-check-input" type="radio">
+                <label for="no" class="form-check-label">No</label>
+            </div>
+
+
+            <div>
+                <input type="submit" class="btn btn-outline-success mt-4">
+            </div>
+
+        </form>
+
+
+    </div> <!--- end of send column--->
+
+
+</div> <!---end of row--->
+
+
+</body>
+</html>

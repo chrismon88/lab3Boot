@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>conference </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="confernce.css"type="text/css">
+</head>
+<body class="m-3">
+
+<form class="mx-5">
+    <div>
+        <p>
+            <label for="name">Name: </label><input id="name" maxlength="70" class="form-control" type="text"><br>
+            <label for="password">Password: </label><input id="password" class="form-control" type="password"><br>
+            <label for="email">Email: </label><input id="email" class="form-control" type="email"><br>
+
+            <select>
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+            </select>
+            Select T-shirt size: <br>
+
+            <label for="dob">Please enter your date of birth: </label><input id="dob" class="form-control" type="date"><br>
+
+            <label for="Comments">Comments: </label><br>
+            <textarea id="Comments" class="form-control" required></textarea><br>
+            Would you like to receive emails from conference sponsors?<br>
+        <div class="form-check">
+            <input name="receiveEmails" id="yes" class="form-check-input" type="radio">
+            <label for="yes" class="form-check-label">Yes</label>
+        </div>
+        <div class="form-check">
+            <input name= "receiveEmails" id="no" class="form-check-input" type="radio">
+            <label for="no">No</label>
+        </div>
+        <br><input class="btm btn-primary mt-2" type="submit">
+        </p>
+    </div>
+</form>
+</body>
+</html>
